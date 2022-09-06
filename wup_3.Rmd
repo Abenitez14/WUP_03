@@ -36,6 +36,11 @@ There are a lot of differences in each of the medians such like the front is 0, 
 ### get fancy  
 
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+Looking at the means of each seats like the back's mean is 9.6, front is 1.8, the middle is 3.2.
 
 ## Inferential Tests
 
