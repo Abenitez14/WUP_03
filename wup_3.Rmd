@@ -43,6 +43,12 @@ favstats(alcohol~Seat,data=davisdata)
 Looking at the means of each seats like the back's mean is 9.6, front is 1.8, the middle is 3.2.
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The pr percentage seems to small for it to mean that the ones in the back don't drink as much as its lead on to be the number is 0.000116.
 
 ## Conclusions
 
