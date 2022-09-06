@@ -55,8 +55,8 @@ par(mar = c(3, 8.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-The ones that are passed the dotted line means that they are similiar so that means middle front are the same , middle back and front back are not the same.
+The ones that are passed the dotted line means that they are similar so that means middle front are the same , middle back and front back are not the same. There is a 95% confidence level 
 
 ## Conclusions
-
+The conclusion is that we have noticed that there at least two rows that are similar.
 
