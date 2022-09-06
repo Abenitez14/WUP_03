@@ -49,6 +49,13 @@ summary.aov(model1)
 ```
 
 The pr percentage seems to small for it to mean that the ones in the back don't drink as much as its lead on to be the number is 0.000116.
+```{r}
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+
+The ones that are passed the dotted line means that they are similiar so that means middle front are the same , middle back and front back are not the same.
 
 ## Conclusions
 
